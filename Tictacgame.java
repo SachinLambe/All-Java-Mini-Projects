@@ -1,4 +1,4 @@
-package tictacgameclass;
+package tictacgame;
 
 public class Tictacgame {
     public static void main(String[] args){
