@@ -14,11 +14,3 @@ A graphical implementation of the classic Tic-Tac-Toe game, built using *Java Sw
 * *Language:* Java
 * *GUI Framework:* Java Swing (javax.swing.*)
 * *Event Handling:* Java AWT (java.awt.*, java.awt.event.*)
-
-## 📂 Project Files
-
-Based on the provided code, the main executable file is TicTacToe.java.
-
-| File Name | Description |
-| :--- | :--- |
-| TicTacToe.java | Contains the entire GUI setup, game board logi
