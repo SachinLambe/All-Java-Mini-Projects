@@ -9,7 +9,7 @@ A graphical implementation of the classic Tic-Tac-Toe game, built using *Java Sw
 * *Visual Feedback:* Tiles change color to indicate the winning line or a tie.
 * *Automatic Game State Management:* Handles player turns, checks for win/tie conditions, and disables the board when the game is over.
 
-### 🛠 Technologies Used
+## 🛠 Technologies Used
 
 * *Language:* Java
 * *GUI Framework:* Java Swing (javax.swing.*)
