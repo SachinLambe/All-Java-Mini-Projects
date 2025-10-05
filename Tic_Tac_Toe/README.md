@@ -2,7 +2,7 @@
 
 A graphical implementation of the classic Tic-Tac-Toe game, built using *Java Swing* for a responsive desktop interface. Play against a friend on the same computer!
 
-## ✨ Features
+### ✨ Features
 
 * *Graphical User Interface (GUI):* Built using Java Swing components (JFrame, JPanel, JButton, JLabel).
 * *Two-Player Local Multiplayer:* Supports two human players ('X' and 'O').
