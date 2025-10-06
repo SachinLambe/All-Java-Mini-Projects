@@ -11,6 +11,7 @@ public class TicTacToe {
     JLabel textLabel = new JLabel();
     JPanel textPanel = new JPanel();
     JPanel boardPanel = new JPanel();
+    JButton resetButton = new JButton("Play Again");
 
     JButton[][] board = new JButton[3][3];
     String playerX = "X";
@@ -35,8 +36,18 @@ public class TicTacToe {
         textLabel.setText("Tic-Tac-Toe");
         textLabel.setOpaque(true);
 
+        resetButton.setFont(new Font("Arial", Font.PLAIN, 20));
+        resetButton.setFocusable(false);
+        resetButton.setVisible(false); // Start hidden
+        resetButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                resetGame();
+            }
+        });
+
         textPanel.setLayout(new BorderLayout());
         textPanel.add(textLabel);
+        textPanel.add(resetButton, BorderLayout.EAST);
         frame.add(textPanel, BorderLayout.NORTH);
 
         boardPanel.setLayout(new GridLayout(3, 3));
@@ -140,14 +151,38 @@ public class TicTacToe {
         tile.setForeground(Color.green);
         tile.setBackground(Color.gray);
         textLabel.setText(currentPlayer + " is the winner!");
+        resetButton.setVisible(true);
     }
 
     void setTie(JButton tile) {
         tile.setForeground(Color.orange);
         tile.setBackground(Color.gray);
         textLabel.setText("Tie!");
+        resetButton.setVisible(true);
     }
+
+    void resetGame() {
+        for (int r = 0; r < 3; r++) {
+            for (int c = 0; c < 3; c++) {
+                board[r][c].setText(""); 
+                board[r][c].setBackground(Color.darkGray); 
+                board[r][c].setForeground(Color.white); 
+            }
+        }
+        
+        gameOver = false;
+        turns = 0;
+        currentPlayer = playerX;
+        
+        textLabel.setText("Tic-Tac-Toe");
+        resetButton.setVisible(false);
+    }
+
     public static void main(String[] args) throws Exception {
-        new TicTacToe();
+       SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                new TicTacToe();
+            }
+        });
     }
 }
