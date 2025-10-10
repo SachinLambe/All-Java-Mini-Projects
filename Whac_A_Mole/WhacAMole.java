@@ -5,7 +5,8 @@ import javax.swing.*;
 
 public class WhacAMole {
     int boardWidth = 600;
-    int boardHeight = 650; //50 for the text panel on top
+    int boardHeight = 650;
+    //50 for the text panel on top
 
     JFrame frame = new JFrame("Mario: Whac A Mole");
     JLabel textLabel = new JLabel();
