@@ -5,8 +5,8 @@ import java.util.Random;
 import javax.swing.*;
 
 public class WhacAMole {
-    int boardWidth = 600;
-    int boardHeight = 650;
+    int boardWidth = 550;
+    int boardHeight = 600;
     
     // --- New Variables for Restart Button ---
     JButton restartButton = new JButton("Restart Game");
