@@ -35,3 +35,5 @@ Smash the moles to earn points — but be careful not to click a Piranha Plant, 
 - Clicking logic:
   - If you click a *mole*: gain +10 points.
   - If you click a *plant*: game stops and all tiles are disabled.
+ 
+## 📸 Game Output
