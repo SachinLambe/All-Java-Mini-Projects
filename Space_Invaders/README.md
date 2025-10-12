@@ -38,3 +38,6 @@ A simple 2D *Space Invaders* game built using *Java Swing* and *AWT*, where the 
 
 ---
 ## 📸 Game Output
+
+<img width="1919" height="1010" alt="Screenshot 2025-10-12 205546" src="https://github.com/user-attachments/assets/86bc3d12-f32a-4a05-b600-7456b87d2808" />
+
