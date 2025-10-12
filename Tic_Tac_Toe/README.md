@@ -16,3 +16,5 @@ A graphical implementation of the classic Tic-Tac-Toe game, built using *Java Sw
 * *Event Handling:* Java AWT (java.awt.*, java.awt.event.*)
 
 ## 📸 Game Output
+
+<img width="1919" height="1001" alt="Screenshot 2025-10-12 124721" src="https://github.com/user-attachments/assets/4c3da762-0c3f-445f-b614-d5a6e5758252" />
