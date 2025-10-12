@@ -37,3 +37,5 @@ Smash the moles to earn points — but be careful not to click a Piranha Plant, 
   - If you click a *plant*: game stops and all tiles are disabled.
  
 ## 📸 Game Output
+
+<img width="1919" height="1003" alt="Screenshot 2025-10-12 174546" src="https://github.com/user-attachments/assets/f69c4bb0-a959-4e9e-920b-1d8ad8647ef1" />
