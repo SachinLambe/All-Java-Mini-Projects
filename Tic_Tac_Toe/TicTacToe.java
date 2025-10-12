@@ -179,10 +179,6 @@ public class TicTacToe {
     }
 
     public static void main(String[] args) throws Exception {
-       SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
-                new TicTacToe();
-            }
-        });
+        new TicTacToe();
     }
 }
